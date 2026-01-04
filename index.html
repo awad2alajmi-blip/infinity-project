@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="ar">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>الصفحة الرسمية — إنفنتي</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="splash" id="splash" aria-label="Infinity Splash">
+        <div class="logo" title="Infinity"></div>
+    </div>
+
+    <div class="video-modal-overlay" id="video-modal" onclick="closeVideoModal(event)">
+        <div class="video-modal-content" onclick="event.stopPropagation()">
+            <button type="button" class="close-btn" onclick="closeVideoModal()">X</button>
+            <iframe id="video-iframe" src="" frameborder="0" 
+                    allow="autoplay; fullscreen" allowfullscreen
+                    sandbox="allow-scripts allow-same-origin allow-presentation allow-forms"></iframe>
+        </div>
+    </div>
+
+    <div class="mesh" aria-hidden="true"></div>
+
+    <div class="site">
+        <header class="hero" role="banner" aria-label="البانر">
+            <div class="banner" aria-hidden="true"></div>
+            <div class="badge" role="region" aria-label="hero badge">
+                <div style="text-align:center">
+                    <div style="font-weight:800;font-size:20px;color:#e8fbff">الصفحة الرسمية — إنفنتي</div>
+                    <div class="muted" style="margin-top:6px;font-size:13px">مجتمع البثاثين — مكان يجمع الفرق، الفعاليات، وروابط التواصل.</div>
+                </div>
+            </div>
+        </header>
+
+        <div style="height:34px"></div>
+
+        <div class="logo-row" aria-hidden="false">
+            <div class="logo-box" title="لوغو إنفنتي"></div>
+        </div>
+
+        <nav class="topnav" aria-label="Top Navigation" style="margin-top:14px">
+            <a href="#streamers" data-tab="streamers">البثاثين</a>
+            <a href="#games" data-tab="games">الألعاب</a>
+            <a href="#paths" data-tab="paths">خارطة الكليبات</a>
+            <a href="#challenge" data-tab="challenge">تحدي إنفنتي</a>
+            <a href="#about" data-tab="about">عن إنفنتي</a>
+            <a href="games/support.html">الدعم الفني</a>
+        </nav>
+
+        <main id="home" role="main">
+            <section id="streamers" class="section">
+                <div class="section-head"><h2>البثاثين</h2><p class="muted">مكان يجمع المبدعين، الفِرق، وروابط التواصل.</p></div>
+                <div class="glass">
+                    <div class="cards-grid" id="cardsGrid">
+                        <a href="https://linktr.ee/GhTzy" target="_blank" class="card-link">
+                            <article class="card c-gh" data-col="#fe8f1c,#11111f"><div class="glow"></div><img class="avatar" src="assets/GHTZY.webp" alt="GhTzy"><h3>GhTzy</h3></article>
+                        </a>
+                        <a href="https://www.linkin1.com/3Yazan" target="_blank" class="card-link">
+                            <article class="card c-3y" data-col="#1a5a7d,#081222"><div class="glow"></div><img class="avatar" src="assets/3YAZAN.webp" alt="3Yazan"><h3>3Yazan</h3></article>
+                        </a>
+                        <a href="https://linktr.ee/LNXX_" target="_blank" class="card-link">
+                            <article class="card c-ln" data-col="#efefef,#21213a"><div class="glow"></div><img class="avatar" src="assets/LNXX.webp" alt="LNXX"><h3>LNXX</h3></article>
+                        </a>
+                        <a href="https://linktr.ee/iK70N" target="_blank" class="card-link">
+                            <article class="card c-ik" data-col="#c59392,#958596"><div class="glow"></div><img class="avatar" src="assets/IK70N.webp" alt="ik70n"><h3>ik70n</h3></article>
+                        </a>
+                        <a href="https://linktr.ee/IA7MD1" target="_blank" class="card-link">
+                            <article class="card c-ia" data-col="#fcb58f,#7a5f98"><div class="glow"></div><img class="avatar" src="assets/IA7MD.webp" alt="IA7MD"><h3>IA7MD</h3></article>
+                        </a>
+                        <a href="https://linktr.ee/m8y8" target="_blank" class="card-link">
+                            <article class="card c-m8" data-col="#000000,#ffffff"><div class="glow"></div><img class="avatar" src="assets/M8Y8.webp" alt="M8Y8"><h3>M8Y8</h3></article>
+                        </a>
+                        <a href="https://linktr.ee/llYousf" target="_blank" class="card-link">
+                            <article class="card c-ll" data-col="#6f8bbd,#353641"><div class="glow"></div><img class="avatar" src="assets/llYOUSF.webp" alt="IIYousf"><h3>IIYousf</h3></article>
+                        </a>
+                        <a href="https://linktr.ee/Skyhunter278" target="_blank" class="card-link">
+                            <article class="card" data-col="#14c7e8,#081222"><div class="glow"></div><img class="avatar" src="assets/skyhunter.webp" alt="SkyHunter"><h3>SkyHunter</h3></article>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <section id="games" class="section">
+                <div class="section-head"><h2> الألعاب</h2><p class="muted">ألعاب بسيطة ممتعة مصممة للمنصة.</p></div>
+                <div class="glass">
+                    <div class="cards-grid">
+                        <article class="card game-card" data-col="#14c7e8,#081222"><div class="glow"></div><img class="avatar" src="assets/game2.png" alt="Very Soooooon"><div class="meta"><h3>Very Soooooon</h3><p class="muted">ج — ج</p></div></article>
+                        <article class="card game-card" data-col="#14c7e8,#081222"><div class="glow"></div><img class="avatar" src="assets/game3.png" alt="Very Soooooon"><div class="meta"><h3>Very Soooooon</h3><p class="muted">ج— ج</p></div></article>
+                        <a href="games/game1.html" style="text-decoration:none; color:inherit;"><article class="card game-card" data-col="#14c7e8,#081222"><div class="glow"></div><img class="avatar" src="assets/game1.jpg" alt="خمن الكلمة"><div class="meta"><h3>خمن الكلمة</h3><p class="muted"> لعبه خفيفه تجمع محبين التخمين</p></div></article></a>
+                    </div>
+                </div>
+            </section>
+
+            <section id="paths" class="section">
+                <div class="section-head"><h2>خارطة الكليبات</h2></div>
+                <div style="text-align:center; margin-top:10px;">
+                    <p class="muted">🖱️ اسحب الخارطة للبحث والاستكشاف، ثم اضغط على أيقونة البثاث لمشاهدة الكليب.</p>
+                    <div class="glass" style="padding:0; overflow:hidden;">
+                        <div class="map-container" id="mapContainer">
+                            <div class="map-content" id="mapContent">
+                                <svg class="map-svg" id="svgPath"></svg> 
+                                <div class="landmark" style="top: 700px; left: 1700px;" data-video="assets/VIK70N.mp4">
+                                    <div class="streamer-disc"><img src="assets/IK70N.webp" alt="ik70n"></div>
+                                    <div class="label-box"><h4>IK70N</h4></div>
+                                </div>
+                                <div class="landmark" style="top: 250px; left: 1400px;" data-video="assets/V3YAZAN.mp4">
+                                    <div class="streamer-disc"><img src="assets/3YAZAN.webp" alt="3Yazan"></div>
+                                    <div class="label-box"><h4>3Yazan</h4></div>
+                                </div>
+                                <div class="landmark" style="top: 600px; left: 1100px;" data-video="assets/VLNKK.mp4">
+                                    <div class="streamer-disc"><img src="assets/LNXX.webp" alt="LNXX"></div>
+                                    <div class="label-box"><h4>LNXX</h4></div>
+                                </div>
+                                <div class="landmark" style="top: 950px; left: 800px;" data-video="assets/VSKYHUNTER.mp4">
+                                    <div class="streamer-disc"><img src="assets/skyhunter.webp" alt="SkyHunter"></div>
+                                    <div class="label-box"><h4>SkyHunter278</h4></div>
+                                </div>
+                                <div class="landmark" style="top: 800px; left: 250px;" data-video="assets/VGHTZY.mp4">
+                                    <div class="streamer-disc"><img src="assets/GHTZY.webp" alt="GhTzy"></div>
+                                    <div class="label-box"><h4>GhTzy</h4></div>
+                                </div>
+                                <div class="landmark" style="top: 500px; left: 450px;" data-video="assets/VM8Y8.mp4">
+                                    <div class="streamer-disc"><img src="assets/M8Y8.webp" alt="M8Y8"></div>
+                                    <div class="label-box"><h4>M8Y8</h4></div>
+                                </div>
+                                <div class="landmark" style="top: 150px; left: 700px;" data-video="assets/VIA7MAD.mp4">
+                                    <div class="streamer-disc"><img src="assets/IA7MD.webp" alt="IA7MD"></div>
+                                    <div class="label-box"><h4>IA7MD</h4></div>
+                                </div>
+                                <div class="landmark" style="top: 200px; left: 200px;" data-video="assets/VLLYOUSF.mp4">
+                                    <div class="streamer-disc"><img src="assets/llYOUSF.webp" alt="IIYousf"></div>
+                                    <div class="label-box"><h4>IIYousf</h4></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="challenge" class="section">
+                <div class="glass challenge-wrapper">
+                    <div class="challenge-header-row">
+                        <div class="text-content">
+                            <h2>أهدافنا في 2026</h2>
+                            <p class="muted">مشوار الـ 1000 ساعة بث — رحلة الفريق</p>
+                        </div>
+                        <div class="challenge-stats">
+                             <div class="mini-stat">
+                                <span class="stat-label">المتبقي</span>
+                                <span class="stat-value" id="hoursRemaining">1000</span>
+                             </div>
+                             <div class="mini-stat">
+                                <span class="stat-label">الإنجاز</span>
+                                <span class="stat-value" id="completionPercent">0%</span>
+                             </div>
+                        </div>
+                    </div>
+
+                    <div class="counter-box">
+                        <div class="counter-display">
+                            <span class="current-num" id="streamingHours">0</span>
+                            <span class="total-num">/ 1000</span>
+                        </div>
+                        <div class="counter-label">ساعة تم بثها</div>
+                        
+                        <div class="progress-track">
+                            <div class="progress-fill" id="streamingProgress" style="width: 0%">
+                                <div class="progress-glow"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="calendar-container">
+                        <div class="calendar-header">
+                            <button id="prevMonth" class="cal-nav-btn">&gt;</button>
+                            <h3 id="currentMonthLabel">يناير 2026</h3>
+                            <button id="nextMonth" class="cal-nav-btn">&lt;</button>
+                        </div>
+                        
+                        <div class="calendar-weekdays">
+                            <div>أحد</div><div>اثنين</div><div>ثلاثاء</div><div>أربعاء</div><div>خميس</div><div>جمعة</div><div>سبت</div>
+                        </div>
+
+                        <div class="calendar-grid" id="calendarGrid">
+                            </div>
+                    </div>
+
+                    <div id="streamTooltip" class="stream-tooltip">
+                        <div class="tooltip-content"></div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="about" class="section">
+                <div class="glass" style="max-width:900px;margin:0 auto;text-align:center;">
+                    <h2>عن إنفنتي</h2>
+                    <p class="muted">مجتمع شباب طموحين يحاولون رسم البَسمة في وُجوه المتابعين...</p>
+                    <div style="margin-top:18px">
+                        <a id="discord" class="discord-cta" href="https://discord.gg/awGpn9JSka" target="_blank" rel="noopener noreferrer">
+                            <img src="assets/DISCORD.png" alt="discord">
+                            <span>انضم لسيرفر إنفنتي</span>
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="js/map.js"></script>
+</body>
+</html>
